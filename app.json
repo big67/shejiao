@@ -1,0 +1,30 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "留住温度速度温柔和愤怒",
+    "navigationBarTextStyle":"white"
+  },
+  
+  "tabBar": {
+    "color": "#dddddd",
+    "selectedColor": "#000",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "iconPath": "image/camera_n.png",
+      "selectedIconPath": "image/camera.png"
+      
+    },
+    {
+      "pagePath": "pages/logs/logs",
+      "iconPath": "image/message_n.png",
+      "selectedIconPath": "image/message.png"
+    }]
+  }
+}
