@@ -103,7 +103,7 @@
 
 .posts-contain {
   vertical-align:middle;
-  height: 120px;
+  height: 140px;
 }
 
 .posts-title {
