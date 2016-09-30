@@ -92,10 +92,29 @@
   line-height:14px;
   vertical-align:middle;
 }
-.posts-title {
+
+/*.posts-title {
   color: #2c3e50;
   font-size: 16px;
   line-height: 1.5;
   font-weight: bold;
   padding-bottom: 5px;
+}*/
+
+.posts-contain {
+  vertical-align:middle;
+  height: 120px;
+}
+
+.posts-title {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.posts-image {
+  margin-right: 8px;
+  margin-top: 5px;
+  vertical-align:left;
+  width: 100px;
+  height: 100px;
 }

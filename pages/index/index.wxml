@@ -28,7 +28,13 @@
                 <view class="posts-tag" wx:if="{{item.good === true}}">精华</view>
                 <view class="posts-last-reply">{{item.last_reply_at}}</view>
                 </view>
-                <view class="posts-title">{{item.title}}</view>
+                <!--<view class="posts-title">{{item.title}}</view>-->
+                <view class="posts-contain">
+                    <view class="posts-title">{{item.title}}</view>
+                    <block wx:for="{{item.postImages}}">
+                        <image class="posts-image" mode="aspectFill" src="{{item.url}}"></image>
+                    </block>
+                </view>
                 <view class="bar-info">
                 <view class="bar-info-item">
                     <image class="bar-info-item-icon" src="../../image/icon/reply.png"></image>
